@@ -6,6 +6,16 @@ Structure:
 
 2) `src` directory contains all source file `.cpp` and also `include/` with headers.
 
+## Layout
+
+1) `input_info.hpp` provides:
+    * `Event` class. It's the basic block of program. It contains all info about the concrete action.
+    * `InputInfo` class. It contains well-organized structure about club's events and timing.
+
+2) `utils.hpp` provides:
+    * `Table` class.
+    * `ClientStatus` class.
+
 ## Build
 Everything is done through the ***cmake*** system
 
